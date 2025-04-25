@@ -41,4 +41,4 @@ class Leaderboard(models.Model):
     rank = models.IntegerField(default=0)
 
     def __str__(self):
-        return f"{self.user_email} - {self.total_points} pontos"
+        return f"{self.user_email} - {self.total_points} pontos."
